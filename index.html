@@ -17,6 +17,7 @@
             bottom: 10px;
             right: 10px;
             display: grid;
+            z-index: 1;
         }   
         .redes i{
             font-size: 50px;
@@ -49,23 +50,38 @@
         .mto{
             margin-top: 70px;
         }
+        .container-fluid img{
+            width: 15%;
+        }
+        header .container{
+            background-color: rgba(166, 43, 49, 0.938)!important;
+            z-index: 999!important;
+            padding: 0 15px 0 0;
+            position: fixed;
+            top: 0;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <header>
-        <div class="menuN container">
-        <a href="">Logo</a>
-        <nav>
-            <ul>
-                <a href="index.html"><li class="menu-item">Home</li></a>
-                <a href="contato.html"><li class="menu-item">Contato</li></a>
-                <a href="agendamento.html">
-                <li class="menu-item">Agendamentos</li></a>
-                <a href=""><li class="menu-item">Sobre</li></a>
-                <a href=""><li class="menu-item">Login</li></a>
-            </ul>
+        <nav class="container navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="imagem/jemase logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#">Agendamentos</a>
+                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link disabled">Login</a>
+                </div>
+                </div>
+            </div>
         </nav>
-        </div>
     </header>
     <section>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">

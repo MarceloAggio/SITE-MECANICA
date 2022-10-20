@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6{
 }
 header, footer{
     padding: 15px 0 5px 0;
-    background-color: rgba(166, 43, 49, 1);
+    background-color: rgba(166, 43, 49, 1)!important;
     color: white;
     line-height: 15px;
 }
