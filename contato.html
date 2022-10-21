@@ -66,21 +66,53 @@
 </head>
 <body>
     <header>
-        <div class="menuN container">
-        <a href="">Logo</a>
-        <nav>
-            <ul>
-                <a href="index.html"><li class="menu-item">Home</li></a>
-                <a href="contato.html"><li class="menu-item">Contato</li></a>
-                <a href="agendamento.html"><li class="menu-item">Agendamentos</li></a>
-                <a href=""><li class="menu-item">Sobre</li></a>
-                <a href=""><li class="menu-item">Login</li></a>
-            </ul>
-        </nav>
-        </div>
+        <nav class="navbar bg-light fixed-top">
+            <div class="container-fluid">
+                <img src="imagem/jemase logo.jpg" alt="">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <img src="imagem/jemase logo.jpg" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Serviços
+                        </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">ex-1</a></li>
+                        <li><a class="dropdown-item" href="#">ex-2</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agendamento.html">Agendamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Login</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </nav>
     </header>
     <div class="container" style="margin-top: 35px;">
-        <h2 class="titulo mb mt">Contato</h2>
+        <h2 class="titulo mb mto">Contato</h2>
 
         <div class="col-2">
 
@@ -123,6 +155,13 @@
         </div>
     </div>
     <hr>
+    <section>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/jemase_s.a/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <p>Desenvolvido por Marcelo || 2022</p>

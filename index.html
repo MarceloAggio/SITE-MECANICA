@@ -10,25 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        .redes{
-            margin-top: 15px;
-            text-align: center;
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            display: grid;
-            z-index: 999;
-        }   
-        .redes i{
-            font-size: 50px;
-            margin: 15px;
-        }
-        .redes i:hover{
-            transform: scale3d(1.1, 1.1, 1);
-        }
-        .redes a{
-            color:black;
-        }
+        
         .texto-p{
             margin: 0 10px;
             text-align: center;
@@ -50,8 +32,9 @@
         .mto{
             margin-top: 70px;
         }
-        .navbar-brand img{
-            width: 15%;
+        .navbar img{
+            width: 10%;
+            margin: 5px auto;
         }
         .container-fluid{
             background-color: rgb(166, 43, 49)!important;
@@ -63,13 +46,18 @@
         .offcanvas-header img{
             width: 50%;
         }
+        footer{
+            border-top: 1px solid black;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="imagem/jemase logo.jpg" alt=""></a>
+                <img src="imagem/jemase logo.jpg" alt="">
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -85,7 +73,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,13 +85,13 @@
                     </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Agendamento</a>
+                        <a class="nav-link" href="agendamento.html">Agendamento</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="sobre.html">Login</a>
                     </li>
                     </ul>
                 </div>
@@ -250,8 +238,7 @@
         
         <div class="card-bodye">
             <h3 class="card-local">Mecanica em Geral</h3>
-            <p class="card-texto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit alias nobis obcaecati ullam sapiente, aut corrupti, quidem in eligendi, molestias distinctio? Quod quaerat aut labore exercitationem dolorum architecto eos porro.
+            <p class="mt" style="margin-top: 40px;"><a href="" class="button">Ver mais Serviços</a>
             </p>
         </div>
         </div>
@@ -259,7 +246,6 @@
     </div>
     </section>
     <!---------------------------------------------------------------->
-    <hr>
     <section>
         <div class="redes">
             <a href=""><i class="fa-brands fa-facebook"></i></a>

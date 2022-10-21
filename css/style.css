@@ -129,3 +129,46 @@ a:hover{
     color: white;
     font-weight: normal;
 }
+.mt{
+    margin-top: 15px;
+}
+.redes{
+    margin-top: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: grid;
+    z-index: 999;
+}   
+.redes i{
+    font-size: 50px;
+    margin: 15px;
+}
+.redes i:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.redes a{
+    color:black;
+}
+.mto{
+    margin-top: 70px;
+}
+.navbar img{
+    width: 10%;
+    margin: 5px auto;
+}
+.container-fluid{
+    background-color: rgb(166, 43, 49)!important;
+    z-index: 999!important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.offcanvas-header img{
+    width: 50%;
+}
+footer{
+    border-top: 1px solid black;
+    margin-top: 40px;
+}
