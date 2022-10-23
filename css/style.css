@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(224, 224, 224);
+}
 h1, h2, h3, h4, h5, h6{
     text-decoration: none;
 }
@@ -31,14 +34,15 @@ nav ul li:hover{
 }
 .titulo{
 margin: 1.563rem 0rem;
-background-color: rgba(166, 43, 49, 1);
+background-color: rgb(166, 43, 49);
 width: 100%;
-color: white;
+color: White;
 padding: 0.5rem 0rem 0.5rem;
 padding-left: 5px;
 text-align: center;
 font-weight: normal;
 border-radius: 5px;
+box-shadow: 0px 0px 10px rgb(166, 49, 49);
 }
 .menu-dot{
 text-align:center;
@@ -152,7 +156,7 @@ a:hover{
     width: 50%;
 }
 footer{
-    background-color: rgba(72, 89, 105, 1);
+    background-color: rgb(166, 43, 49);
     border-top: 1px solid black;
     margin-top: 40px;
     bottom: 0;
