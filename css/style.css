@@ -19,16 +19,11 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
     margin: 0 5px;
 }
-header, footer{
+header{
     padding: 15px 0 5px 0;
     background-color: rgba(166, 43, 49, 1)!important;
     color: white;
     line-height: 15px;
-}
-footer{
-    text-align: center;
-    padding: 35px;
-    margin-top: 15px;
 }
 nav ul li:hover{
     color: #000;
@@ -80,7 +75,7 @@ height: 200px;
 overflow: hidden;
 }
 .card-bodye{
-height: 170px;
+height: 220px;
 padding: 15px;
 text-align: center;
 }
@@ -153,9 +148,22 @@ a:hover{
 .mto{
     margin-top: 70px;
 }
+.offcanvas-header img{
+    width: 50%;
+}
+footer{
+    background-color: rgba(72, 89, 105, 1);
+    border-top: 1px solid black;
+    margin-top: 40px;
+    bottom: 0;
+    text-align: center;
+    padding: 35px;
+    color: black;
+    z-index: 999999;
+}
 .navbar img{
-    width: 10%;
-    margin: 5px auto;
+    margin: 0px auto;
+    width: 15%;
 }
 .container-fluid{
     background-color: rgb(166, 43, 49)!important;
@@ -170,5 +178,11 @@ a:hover{
 footer{
     border-top: 1px solid black;
     margin-top: 40px;
-    bottom: 0;
+}
+.fa-solid{
+    color: white;
+    font-size: 25px;
+}
+.navbar-toggler{
+    border: 1px solid black;
 }
