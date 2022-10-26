@@ -32,7 +32,6 @@
         .mto{
             margin-top: 70px;
         }
-        
     </style>
 </head>
 <body>
@@ -83,7 +82,7 @@
             </nav>
     </header>
     <section>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mto" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="imagem/arrefecimento.jpg" style="width: 100%;height: 500px;" class="d-block w-100" alt="...">
@@ -105,6 +104,7 @@
             </button>
         </div>
     </section>
+    <hr>
     <section>
         <div class="container mto">
             <h3 class="titulo">Serviços</h3>
@@ -216,15 +216,27 @@
     </div>
     </div>
     </section>
+    <style>
+        .col-md-6 img{
+            width: 80%;
+        }
+    </style>
     <section>
         <div class="container">
             <h3 class="titulo">Sobre a JEMASE</h3>
-            <div class="texto-p">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="imagem/jemase_logot.png" alt="">
+                </div>
+            <div class="col-md-6 text-center">
                 <p>Mecanica especializada em Mecanica em Uma forma Geral.</p>
                 <p>Estamos no jaragua des de 2016 e no ponto atual des de 2017</p>
                 <p>Mecanico com mais de 20 Anos de Experiencia já trabalhando na Siemens e na Frison</p>
                 <br>
-                <a href="sobre.html" class="button">Ver mais</a>
+                <div class="text-center">
+                    <a href="sobre.html" class="button">Ver mais</a>
+                </div>
+            </div>
             </div>
         </div>
     </section>
