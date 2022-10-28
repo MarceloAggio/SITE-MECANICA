@@ -17,12 +17,6 @@
         .mt{
             margin-top: 15px;
         }
-        input{
-            width: 72%;
-            border-radius: 8px;
-            border: 1px solid black;
-            padding: 5px;
-        }
         textarea{
             width: 80%;
             border-radius: 8px;
@@ -76,7 +70,7 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <img src="imagem/jemase-logo.jpg" alt="">
+                    <img src="imagem/jemase-logo.png" alt="">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -111,6 +105,7 @@
             </div>
             </nav>
     </header>
+    <section>
     <div class="container" style="margin-top: 35px;">
         <h2 class="titulo mb mto">Contato</h2>
 
@@ -120,17 +115,20 @@
                 <h2 class="mt mb">Deixe sua mensagem</h2>
                 <form action="">
                     <div class="mb">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" name="nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome Sobrenome">
                     </div>
                     <div class="mb">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
                     </div>
-                    <label for="nome"><h3 class="mb mt">Mensagem:</h3></label>
-                    <div class="mb">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
+                    <label for="nome">
+                        <h3 class="mb mt form-label">Mensagem:</h3>
+                    </label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2">Comentario</label>
+                      </div>
                     <br>
                     <a href="" class="btn btn-primary btn-secondary">Enviar</a>
                 </form>
@@ -144,10 +142,15 @@
             </div>
             <div class="col-6">
             <div class="contatos">
-                <h2 class="mt mbt">Telefones</h2>
-                <p class="mbt">contato@site.com.br</p>
-                <p class="mbt">(11) 99999-9999</p>
-                <p>(11) 9999-9999</p>
+                <h2 class="mt mbt">Contatos</h2>
+                <form>
+                    <label for="email" class="form-label">contatos@site.com.br</label>
+                    <br>
+                    <label for="email" class="form-label">(11) 99999-9999</label>
+                    <br>
+                    <label for="email" class="form-label">(11) 99999-9999</label>
+                    <br>
+                </form>
 
                 <h2 class="mt mb">Endereço</h2>
                 <p class="mb">Av. Alexios Jafet, 1487 - Ipanema, São Paulo - SP, 05181-010</p>
@@ -157,6 +160,7 @@
             </div>
         </div>
     </div>
+    </section>
     <hr>
     <section>
         <div class="redes">
