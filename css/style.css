@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6{
 }
 header{
     padding: 15px 0 5px 0;
-    background-color: rgba(166, 43, 49, 1)!important;
+    background-color: rgb(236, 50, 55)!important;
     color: white;
     line-height: 15px;
 }
@@ -34,7 +34,7 @@ nav ul li:hover{
 }
 .titulo{
 margin: 1.563rem 0rem;
-background-color: rgb(136, 46, 50);
+background-color: rgb(166, 43, 49);
 width: 100%;
 color: White;
 padding: 0.5rem 0rem 0.5rem;
@@ -154,7 +154,7 @@ a:hover{
     color:black;
 }
 .mto{
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .offcanvas-header img{
     width: 50%;
@@ -174,7 +174,7 @@ footer{
     width: 15%;
 }
 .container-fluid{
-    background-color: rgb(166, 43, 49)!important;
+    background-color: rgb(189, 38, 43)!important;
     z-index: 999!important;
     position: fixed;
     top: 0;
@@ -198,5 +198,13 @@ footer{
     margin-bottom: 30px
 }
 .btn .btn-primary{
-    background-color: rgb(170, 170, 170)!important;
+    background-color: rgba(72, 89, 105, 1)!important;
+}
+.none{
+    border: none;
+    background-color: transparent;
+}
+.row img{
+    width: 100%;
+    border-radius: 7px;
 }

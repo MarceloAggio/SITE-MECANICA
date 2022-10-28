@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
-                <img src="imagem/jemase_logot.png" alt="" width="100%">
+                <img src="imagem/jemase-logot.png" alt="" width="100%">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span><i class="fa-solid fa-bars"></i></span>
@@ -20,7 +20,7 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <img src="imagem/jemase_logot.png" alt="">
+                    <img src="imagem/jemase-logot.png" alt="">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="sobre.html">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Login</a>
+                        <button type="button" class="nav-link none" href="sobre.html" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
                     </li>
                     </ul>
                 </div>
@@ -55,9 +55,83 @@
             </div>
             </nav>
     </header>
-    <div class="container">
-        <h2 class="titulo mb mto">Quem Somos?</h2>
+    <section>
+    <div class="container mto">
+        <h2 class="titulo mb">Quem Somos?</h2>
     </div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="imagem/jemase-logot.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">Titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis repellendus ad eveniet earum dolores libero, nesciunt cum eum iure natus quisquam veniam officiis similique ipsam pariatur commodi error odio.</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h3 class="text-center">Titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis repellendus ad eveniet earum dolores libero, nesciunt cum eum iure natus quisquam veniam officiis similique ipsam pariatur commodi error odio.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="imagem/jemase-logot.png" alt="">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="imagem/jemase-logot.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">Titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis repellendus ad eveniet earum dolores libero, nesciunt cum eum iure natus quisquam veniam officiis similique ipsam pariatur commodi error odio.</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h3 class="text-center">Titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis repellendus ad eveniet earum dolores libero, nesciunt cum eum iure natus quisquam veniam officiis similique ipsam pariatur commodi error odio.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="imagem/jemase-logot.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Usuario:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">E-mail ou Telefone</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Guardar</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     <footer>
         <div class="container">
