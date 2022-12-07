@@ -1,5 +1,6 @@
 
 *{
+
     margin: 0;
     padding: 0;
 }
@@ -33,7 +34,6 @@ nav ul li:hover{
     transition: 0.8s;
 }
 .titulo{
-background-color: rgb(166, 43, 49);
 width: 100%;
 color: White;
 padding: 0.5rem 0rem 0.5rem;
@@ -41,7 +41,6 @@ padding-left: 5px;
 text-align: center;
 font-weight: normal;
 border-radius: 5px;
-box-shadow: 0px 0px 10px rgb(166, 49, 49);
 }
 .menu-dot{
 text-align:center;
@@ -63,65 +62,6 @@ margin: 2px;
 }
 .cont-p{
 margin-left: 15px;
-}
-.carde{
-width: 100%;
-background-color: #fff;
-border-radius: 10px;
-overflow: hidden;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-transition: 0.3s;
-}
-.card-header{
-width: 100%;
-height: 200px;
-overflow: hidden;
-}
-.card-bodye{
-height: 220px;
-padding: 15px;
-text-align: center;
-}
-.carde-bodye{
-    height: 153px;
-    padding: 15px;
-}
-.card-local{
-font-size: 16px;
-margin: 10px 0;
-font-weight: bold;
-}
-.card-texto{
-font-size: 12px;
-width: 100%;
-margin: 0 auto;
-}
-.card-footer{
-margin-top: 10px;
-text-align: center;
-background-color: #000;
-}
-.card-footer a{
-color: #fff;
-display: block;
-padding: 16px;
-text-decoration: none;
-font-weight: 600;
-}
-.cont-card{
-width: 100%;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-column-gap: 20px;
-row-gap: 25px;
-}
-.carde:hover{
-transform: scale3d(1.1, 1.1, 0.9);
-transition: 0.7s;
-}
-.card-header img{
-width: 100%;
-height: 100%;
 }
 a{
     color: white;
@@ -190,6 +130,10 @@ footer{
     color: white;
     font-size: 25px;
 }
+.fa-solid:hover{
+    transition: 0.8s;
+    color: rgba(72, 89, 105, 1);
+}
 .navbar-toggler{
     border: transparent 1px solid
 }
@@ -207,3 +151,88 @@ footer{
     width: 100%;
     border-radius: 7px;
 }
+.fa-whatsapp:hover{
+    color: green;
+    transition: 0.6s;
+}
+.fa-facebook:hover{
+    color: #1877f2;
+    transition: 0.6s;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Noto Sans HK', sans-serif;
+        background: #fff;
+    }
+
+    .slider {
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        transform: scale(1.15);
+        opacity: 1;
+        background-color: #760d26;
+        background-image: linear-gradient(45deg, #760d26 0%, #485969 100%);
+        color: #fff;
+    }
+
+    .slider-card {
+        background: #485969a1;
+        padding: 0px 0px;
+        margin: 50px 15px 90px 15px;
+        border-radius: 5px;
+        box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+        transform: scale(0.9);
+        opacity: 0.5;
+        transition: all 0.3s;
+    }
+
+    .slider-card img {
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: calc(50% - 25px);
+        left: 0;
+        opacity: 1;
+        font-size: 30px !important;
+        z-index: 1;
+    }
+
+    .owl-nav .owl-next {
+        position: absolute;
+        top: calc(50% - 25px);
+        right: 0;
+        opacity: 1;
+        font-size: 30px !important;
+        z-index: 1;
+    }
+
+    .owl-dots {
+        text-align: center;
+    }
+
+    .owl-dots .owl-dot {
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        background: #ccc !important;
+        margin-left: 3px;
+        margin-right: 3px;
+        outline: none;
+    }
+
+    .owl-dots .owl-dot.active {
+        background: #f32e3d !important;
+    }
