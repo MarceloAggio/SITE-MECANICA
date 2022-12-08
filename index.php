@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <style>
         button {
             position: relative;
@@ -139,7 +139,7 @@
             border: 1px solid rgba(255, 255, 255, 0.125);
         }
 
-        .propaganda p {
+        .propaganda h5 {
             color: #fff;
         }
 
@@ -202,7 +202,8 @@
             opacity: 0;
             transition: 0.3s ease-out;
         }
-        .card-button:hover{
+
+        .card-button:hover {
             transition: 0.6s;
             box-shadow: 0 4px 18px 0 white;
         }
@@ -220,12 +221,30 @@
     </header>
     <hr>
     <!---+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-
-        <section>
-            <div class="container">
-                
-            </div>
-        </section>
+    
+    <h1 class="mto text-center" style="background-color: #4859692f;"><b>Sobre a Jemase</b></h2>
+    <section class="propaganda">
+        <div class="container mt-3">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 mb-3">
+                        <img src="imagem/jemase-logot.png" alt="">
+                    </div>
+                    <div class="col-md-6 text-center mt-2 pt-2">
+                        <h5>
+                            Mecanica especializada em Automotivos, Criada em ??/??/???? dentro de uma garagem e nos dias atuais em um Local Preparado para receber seu Automotivo.
+                            Mecanico Com mais de 20 ANOS de Profissão formado pelo Senai...
+                        </h5>
+                        <br>
+                        <button class="learn-more mb-3">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Ver Mais</span>
+                        </button>
+                    </div>
+                </div>
+        </div>
+    </section>
 
     <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
     <section class="servicos mt-6">
@@ -266,7 +285,7 @@
                             <p class="text-center p-4 pt-5">...
                             </p>
                             <button class="card-button">Mais Informações</button>
-                        </div> 
+                        </div>
 
                         <div class="slider-card">
 
@@ -308,49 +327,77 @@
     <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 
     <section>
-        <div class="container">
+        <div class="container unidade">
             <h2 class="text-center" style="background-color: #4859692f;">Nossa Unidade</h2>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14641.884386062635!2d-46.7488691!3d-23.4434657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe32dedab56743f2!2sJemase%20Servi%C3%A7os%20Automotivos!5e0!3m2!1spt-BR!2sbr!4v1670436825981!5m2!1spt-BR!2sbr" width="60%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <h5>
-                Venha Fazer uma visita a nossa unidade Localizada no Jaragua/Sp - Vila Aurora
-            </h5>
-        </div>
-    </section>
-
-    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-    <section class="propaganda mto">
-        <div class="container">
-            <h2 class="titulo">Sobre a JEMASE</h2>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 mb-3">
-                    <img src="imagem/jemase-logot.png" alt="">
+            <div class="row  mt-3">
+                <div class="col-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14641.884386062635!2d-46.7488691!3d-23.4434657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe32dedab56743f2!2sJemase%20Servi%C3%A7os%20Automotivos!5e0!3m2!1spt-BR!2sbr!4v1670436825981!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-md-6 text-center mt-2 pt-2">
-                    <p>Mecanica especializada em Mecanica em Uma forma Geral
-                        Estamos no jaragua des de 2016 e no ponto atual des de 2017
-                        Mecanico com mais de 20 Anos de Experiencia já trabalhando na Siemens e na Frison</p>
-                    <br>
-                    <button class="learn-more mb-1">
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text">Ver Mais</span>
-                    </button>
+                <div class="col-6">
+                    <h5 class="text-center">
+                        Venha Fazer uma visita a nossa unidade Localizada na <a class="mapa" href="https://www.google.com/maps/place/Jemase+Servi%C3%A7os+Automotivos/@-23.4434657,-46.7488691,15z/data=!4m5!3m4!1s0x0:0xfe32dedab56743f2!8m2!3d-23.4434657!4d-46.7488691">Av. Alexios Jafet, 1487 - Ipanema, São Paulo - SP,</a>(Proximo a Estação Vila Aurora)
+                    </h5>
+                    <h3 class="text-center mb-3 mt-3">Horario de Funcionamento:</h3>
+
+                    <ul>
+                        <li><h5>Segunda-feira: 08:00 – 18:00</h5></li>
+                        <li><h5>Terça-feira: 08:00 – 18:00</h5></li>
+                        <li><h5>Quarta-feira: 08:00 – 18:00</h5></li>
+                        <li><h5>Quinta-feira: 08:00 – 18:00</h5></li>
+                        <li><h5>Sexta-feira: 08:00 – 18:00</h5></li>
+                        <li><h5>Sábado: 08:00 – 13:00</h5></li>
+                        <li><h5>Domingo: Fechado</h5></li>
+                    </ul>
                 </div>
+                <button class="cta">
+                        Agendamento
+                </button>
             </div>
         </div>
     </section>
 
+    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
     <!---------------------------------------------------------------->
-    <section>
-        <div class="redes">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/jemase_s.a/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+    <?php
+    include("redes.php")
+    ?>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Usuario:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">E-mail ou Telefone</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Guardar</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+
     <footer>
         <div class="container">
             <p>Desenvolvido por Marcelo || 2022</p>

@@ -13,13 +13,6 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        .mb {
-            margin-bottom: 10px;
-        }
-
-        .mt {
-            margin-top: 15px;
-        }
 
         textarea {
             width: 80%;
@@ -51,23 +44,6 @@
 
         .contatos {
             text-align: left;
-        }
-
-        .redes {
-            margin-top: 15px;
-        }
-
-        .redes i {
-            font-size: 50px;
-            margin: 15px;
-        }
-
-        .redes i:hover {
-            transform: scale3d(1.1, 1.1, 1);
-        }
-
-        .redes a {
-            color: black;
         }
     </style>
 </head>
@@ -142,13 +118,9 @@
         </div>
     </section>
     <hr>
-    <section>
-        <div class="redes">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/jemase_s.a/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-    </section>
+    <?php
+    include ("redes.php")
+    ?>
     <footer>
         <div class="container">
             <p>Desenvolvido por Marcelo || 2022</p>

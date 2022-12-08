@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: rgb(224, 224, 224);
-}
+
 h1,
 h2,
 h3,
@@ -13,29 +11,35 @@ h5,
 h6 {
   text-decoration: none;
 }
+
 .container {
   width: 80%;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
+
 .menuN {
   display: flex;
   justify-content: space-between;
 }
+
 .menu-item {
   display: inline-block;
   margin: 0 5px;
 }
+
 header {
   padding: 15px 0 5px 0;
   background-color: rgb(236, 50, 55) !important;
   color: white;
   line-height: 15px;
 }
+
 nav ul li:hover {
   color: #000;
   transition: 0.8s;
 }
+
 .titulo {
   width: 100%;
   color: White;
@@ -45,6 +49,7 @@ nav ul li:hover {
   font-weight: normal;
   border-radius: 5px;
 }
+
 .menu-dot {
   text-align: center;
   color: #f2f2f2;
@@ -55,28 +60,35 @@ nav ul li:hover {
   width: 100%;
   text-align: center;
 }
+
 .col-2 {
   display: grid;
   grid-template-columns: 2fr 2fr;
   text-align: center;
 }
+
 .col-2 p {
   margin: 2px;
 }
+
 .cont-p {
   margin-left: 15px;
 }
+
 a {
   color: white;
   font-weight: normal;
 }
+
 a:hover {
   color: white;
   font-weight: normal;
 }
+
 .mt {
   margin-top: 15px;
 }
+
 .redes {
   margin-top: 15px;
   text-align: center;
@@ -85,22 +97,28 @@ a:hover {
   right: 10px;
   display: grid;
 }
+
 .redes i {
   font-size: 45px;
   margin: 8px;
 }
+
 .redes i:hover {
   transform: scale3d(1.1, 1.1, 1);
 }
+
 .redes a {
   color: black;
 }
+
 .mto {
   margin-top: 90px;
 }
+
 .offcanvas-header img {
   width: 50%;
 }
+
 footer {
   background-color: rgb(166, 43, 49);
   border-top: 1px solid black;
@@ -111,10 +129,12 @@ footer {
   color: black;
   z-index: 999999;
 }
+
 .navbar img {
   margin: 0px auto;
   width: 15%;
 }
+
 .container-fluid {
   background-color: rgb(189, 38, 43) !important;
   z-index: 999 !important;
@@ -122,48 +142,60 @@ footer {
   top: 0;
   width: 100%;
 }
+
 .offcanvas-header img {
   width: 50%;
 }
+
 footer {
   border-top: 1px solid black;
   margin-top: 40px;
 }
+
 .fa-solid {
   color: white;
   font-size: 25px;
 }
+
 .navbar-toggler {
   border: transparent 1px solid;
 }
+
 .col-md-3 {
   margin-bottom: 30px;
 }
+
 .btn .btn-primary {
   background-color: rgba(72, 89, 105, 1) !important;
 }
+
 .none {
   border: none;
   background-color: transparent;
 }
+
 .row img {
   width: 100%;
   border-radius: 7px;
 }
+
 .fa-whatsapp:hover {
   color: #45e862;
   transition: 0.6s;
 }
+
 .fa-facebook:hover {
   color: #1877f2;
   transition: 0.6s;
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 0.6s;
 }
+
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
@@ -174,7 +206,8 @@ html {
 
 body {
   font-family: "Noto Sans HK", sans-serif;
-  background: #fff;
+  background-color: #c0c0c0;
+  background-image: linear-gradient(215deg, #c0c0c0 0%, #ffffff 46%, #bebbbb 100%);
 }
 
 .slider {
@@ -240,4 +273,46 @@ body {
 
 .owl-dots .owl-dot.active {
   background: #f32e3d !important;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.cta {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 30%;
+  margin: 8px auto;
+}
+
+.cta:hover {
+  background-color: #485969;
+  box-shadow: 0px 15px 20px rgba(72, 89, 105, 1);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.cta:active {
+  transform: translateY(-1px);
+}
+/*-------------------------------------------------------------------------*/
+.unidade iframe{
+  border-radius: 8px;
+}
+.mapa{
+  color: #000;
+}
+.mapa:hover{
+  transition: 0.4s;
+  color: #760d26;
 }

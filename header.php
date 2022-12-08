@@ -38,7 +38,7 @@
                         <a class="nav-link" href="sobre.html">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Login</a>
+                        <button type="button" class="nav-link none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
                     </li>
                 </ul>
             </div>
