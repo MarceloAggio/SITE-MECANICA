@@ -8,8 +8,7 @@
     <title>JEMASE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -177,74 +176,117 @@
         .servicos {
             color: #000;
         }
+
+        .slider-card {
+            border-color: #008bf8;
+            box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .slider-card:hover .card-button {
+            transform: translate(-50%, 50%);
+            opacity: 1;
+        }
+
+        .card-button {
+            transform: translate(-50%, 125%);
+            width: 60%;
+            border-radius: 1rem;
+            border: none;
+            background-color: grey;
+            color: #fff;
+            font-size: 1rem;
+            padding: .5rem 1rem;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            opacity: 0;
+            transition: 0.3s ease-out;
+        }
+        .card-button:hover{
+            transition: 0.6s;
+            box-shadow: 0 4px 18px 0 white;
+        }
     </style>
 </head>
 
 <body>
 
-<header>
+    <header>
 
-<?php
-include ('header.php');
-?>
+        <?php
+        include('header.php');
+        ?>
 
-</header>
+    </header>
     <hr>
-<!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!---+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+        <section>
+            <div class="container">
+                
+            </div>
+        </section>
+
+    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
     <section class="servicos mt-6">
 
-            <section id="slider" class="pt-5 mt-6">
-                <div class="container">
-                    <h1 class="text-center" style="background-color: #4859692f;">Serviços</h1>
-                    <div class="slider">
-                        <div class="owl-carousel">
+        <section id="slider" class="pt-5 mt-6">
+            <div class="container">
+                <h1 class="text-center" style="background-color: #4859692f;">Serviços</h1>
+                <div class="slider">
+                    <div class="owl-carousel">
 
-                            <div class="slider-card">
-                                
-                                <h5 class="mb-0 text-center"><b>HTML CSS3 Tutorials</b></h5>
-                                <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
-                                </p>
-                            </div>
+                        <div class="slider-card">
+
+                            <h5 class="mb-0 text-center pt-5"><b>HTML CSS3 Tutorials</b></h5>
+                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div>
 
 
-                            <div class="slider-card">
-                                <h5 class="mb-0 text-center"><b>Wordpress Tutorials</b></h5>
-                                <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
-                                </p>
-                            </div>
+                        <div class="slider-card">
+                            <h5 class="mb-0 text-center pt-5"><b>Wordpress Tutorials</b></h5>
+                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div>
 
-                            <div class="slider-card">
-                                
-                                <h5 class="mb-0 text-center"><b>PHP MySQL Tutorials</b></h5>
-                                <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
-                                </p>
-                            </div>
+                        <div class="slider-card">
 
-                            <div class="slider-card">
-                                
-                                <h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
-                                <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
-                                </p>
-                            </div>
+                            <h5 class="mb-0 text-center pt-5"><b>PHP MySQL Tutorials</b></h5>
+                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div>
 
-                            <div class="slider-card">
-                                
-                                <h5 class="mb-0 text-center mt-2"><b>Bootstrap Tutorials</b></h5>
-                                <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
-                                </p>
-                            </div>
+                        <div class="slider-card">
+
+                            <h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
+                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div>
+
+                        <div class="slider-card">
+
+                            <h5 class="mb-0 text-center pt-5"><b>Bootstrap Tutorials</b></h5>
+                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            </p>
+                            <button class="card-button">Mais Informações</button>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
     </section>
 
-<!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 
     <section>
         <div class="container">
@@ -258,7 +300,7 @@ include ('header.php');
         </div>
     </section>
 
-<!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--++++++++++++++++++++++++++++++++++++++++++++++++++++-->
     <section class="propaganda mto">
         <div class="container">
             <h2 class="titulo">Sobre a JEMASE</h2>
@@ -296,9 +338,7 @@ include ('header.php');
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/a342c01441.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
