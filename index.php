@@ -238,45 +238,64 @@
 
                         <div class="slider-card">
 
-                            <h5 class="mb-0 text-center pt-5"><b>HTML CSS3 Tutorials</b></h5>
-                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            <h5 class="mb-0 text-center pt-5"><b>Mecanica Em Geral</b></h5>
+                            <p class="text-center p-4 pt-5">...
                             </p>
                             <button class="card-button">Mais Informações</button>
                         </div>
 
 
                         <div class="slider-card">
-                            <h5 class="mb-0 text-center pt-5"><b>Wordpress Tutorials</b></h5>
-                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            <h5 class="mb-0 text-center pt-5"><b>Correia Dentada</b></h5>
+                            <p class="text-center p-4 pt-5">...
                             </p>
                             <button class="card-button">Mais Informações</button>
                         </div>
 
                         <div class="slider-card">
 
-                            <h5 class="mb-0 text-center pt-5"><b>PHP MySQL Tutorials</b></h5>
-                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            <h5 class="mb-0 text-center pt-5"><b>Embragem</b></h5>
+                            <p class="text-center p-4 pt-5">...
                             </p>
                             <button class="card-button">Mais Informações</button>
                         </div>
 
                         <div class="slider-card">
 
-                            <h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
-                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            <h5 class="mb-0 text-center pt-5"><b>Arrefecimento</b></h5>
+                            <p class="text-center p-4 pt-5">...
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div> 
+
+                        <div class="slider-card">
+
+                            <h5 class="mb-0 text-center pt-5"><b>Freio</b></h5>
+                            <p class="text-center p-4 pt-5">...
                             </p>
                             <button class="card-button">Mais Informações</button>
                         </div>
 
                         <div class="slider-card">
 
-                            <h5 class="mb-0 text-center pt-5"><b>Bootstrap Tutorials</b></h5>
-                            <p class="text-center p-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
+                            <h5 class="mb-0 text-center pt-5"><b>Suspensão</b></h5>
+                            <p class="text-center p-4 pt-5">...
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div>
+
+                        <div class="slider-card">
+
+                            <h5 class="mb-0 text-center pt-5"><b>Oleo e Filtros</b></h5>
+                            <p class="text-center p-4 pt-5">...
+                            </p>
+                            <button class="card-button">Mais Informações</button>
+                        </div>
+
+                        <div class="slider-card">
+
+                            <h5 class="mb-0 text-center pt-5"><b>Bicos</b></h5>
+                            <p class="text-center p-4 pt-5">...
                             </p>
                             <button class="card-button">Mais Informações</button>
                         </div>
@@ -290,7 +309,7 @@
 
     <section>
         <div class="container">
-            <h2 class="text-center" style="background-color: #4859692f;">Localização</i></h2>
+            <h2 class="text-center" style="background-color: #4859692f;">Nossa Unidade</h2>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14641.884386062635!2d-46.7488691!3d-23.4434657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe32dedab56743f2!2sJemase%20Servi%C3%A7os%20Automotivos!5e0!3m2!1spt-BR!2sbr!4v1670436825981!5m2!1spt-BR!2sbr" width="60%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
