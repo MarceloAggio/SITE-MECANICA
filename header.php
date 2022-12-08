@@ -1,6 +1,4 @@
-<?php
-
-'<nav class="navbar bg-light fixed-top">
+<nav class="navbar bg-light fixed-top">
     <div class="container-fluid">
         <img src="imagem/jemase-logot.png" alt="" width="100%">
         <a class="navbar-brand" href="#"></a>
@@ -21,7 +19,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -47,6 +45,3 @@
         </div>
     </div>
 </nav>
-'
-
-?>

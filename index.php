@@ -185,9 +185,7 @@
 <header>
 
 <?php
-
 include ('header.php');
-
 ?>
 
 </header>
@@ -200,20 +198,17 @@ include ('header.php');
                     <h1 class="text-center" style="background-color: #4859692f;">Serviços</h1>
                     <div class="slider">
                         <div class="owl-carousel">
+
                             <div class="slider-card">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="images/slide-1.jpg" alt="">
-                                </div>
+                                
                                 <h5 class="mb-0 text-center"><b>HTML CSS3 Tutorials</b></h5>
                                 <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
                                 </p>
                             </div>
 
+
                             <div class="slider-card">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="images/slide-2.jpg" alt="">
-                                </div>
                                 <h5 class="mb-0 text-center"><b>Wordpress Tutorials</b></h5>
                                 <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
@@ -221,9 +216,7 @@ include ('header.php');
                             </div>
 
                             <div class="slider-card">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="images/slide-3.jpg" alt="">
-                                </div>
+                                
                                 <h5 class="mb-0 text-center"><b>PHP MySQL Tutorials</b></h5>
                                 <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
@@ -231,9 +224,7 @@ include ('header.php');
                             </div>
 
                             <div class="slider-card">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="images/slide-4.jpg" alt="">
-                                </div>
+                                
                                 <h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
                                 <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
@@ -241,10 +232,8 @@ include ('header.php');
                             </div>
 
                             <div class="slider-card">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="images/slide-5.jpg" alt="">
-                                </div>
-                                <h5 class="mb-0 text-center"><b>Bootstrap Tutorials</b></h5>
+                                
+                                <h5 class="mb-0 text-center mt-2"><b>Bootstrap Tutorials</b></h5>
                                 <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.
                                 </p>
@@ -274,7 +263,7 @@ include ('header.php');
         <div class="container">
             <h2 class="titulo">Sobre a JEMASE</h2>
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6 mb-3">
                     <img src="imagem/jemase-logot.png" alt="">
                 </div>
                 <div class="col-md-6 text-center mt-2 pt-2">
