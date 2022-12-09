@@ -330,29 +330,39 @@
         <div class="container unidade">
             <h2 class="text-center" style="background-color: #4859692f;">Nossa Unidade</h2>
 
-            <div class="row  mt-3">
+            <div class="row  mt-3 pt-3">
                 <div class="col-6">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14641.884386062635!2d-46.7488691!3d-23.4434657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe32dedab56743f2!2sJemase%20Servi%C3%A7os%20Automotivos!5e0!3m2!1spt-BR!2sbr!4v1670436825981!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-6">
                     <h5 class="text-center">
-                        Venha Fazer uma visita a nossa unidade Localizada na <a class="mapa" href="https://www.google.com/maps/place/Jemase+Servi%C3%A7os+Automotivos/@-23.4434657,-46.7488691,15z/data=!4m5!3m4!1s0x0:0xfe32dedab56743f2!8m2!3d-23.4434657!4d-46.7488691">Av. Alexios Jafet, 1487 - Ipanema, São Paulo - SP,</a>(Proximo a Estação Vila Aurora)
+                        Venha Fazer uma visita a nossa unidade Localizada na
+                        <br>
+                        <a class="mapa" href="https://www.google.com/maps/place/Jemase+Servi%C3%A7os+Automotivos/@-23.4434657,-46.7488691,15z/data=!4m5!3m4!1s0x0:0xfe32dedab56743f2!8m2!3d-23.4434657!4d-46.7488691">Av. Alexios Jafet, 1487 - Ipanema, São Paulo - SP,</a>
+                        <br>
+                        (Proximo a Estação Vila Aurora)
                     </h5>
                     <h3 class="text-center mb-3 mt-3">Horario de Funcionamento:</h3>
 
-                    <ul>
-                        <li><h5>Segunda-feira: 08:00 – 18:00</h5></li>
-                        <li><h5>Terça-feira: 08:00 – 18:00</h5></li>
-                        <li><h5>Quarta-feira: 08:00 – 18:00</h5></li>
-                        <li><h5>Quinta-feira: 08:00 – 18:00</h5></li>
-                        <li><h5>Sexta-feira: 08:00 – 18:00</h5></li>
-                        <li><h5>Sábado: 08:00 – 13:00</h5></li>
-                        <li><h5>Domingo: Fechado</h5></li>
+                    <ul class="row">
+                        <div class="col-6">
+                            <li><h5>Segunda-feira: 08:00 – 18:00</h5></li>
+                            <li><h5>Terça-feira: 08:00 – 18:00</h5></li>
+                            <li><h5>Quarta-feira: 08:00 – 18:00</h5></li>
+                            <li><h5>Quinta-feira: 08:00 – 18:00</h5></li>
+                        </div>
+                        <div class="col-6">
+                            <li><h5>Sexta-feira: 08:00 – 18:00</h5></li>
+                            <li><h5>Sábado: 08:00 – 13:00</h5></li>
+                            <li><h5>Domingo: Fechado</h5></li>
+                            <li><h5>Feriados: Fechado</h5></li>
+                        </div>
+                        <button class="cta">
+                                Agendamento
+                            </button>
                     </ul>
                 </div>
-                <button class="cta">
-                        Agendamento
-                </button>
+                
             </div>
         </div>
     </section>
