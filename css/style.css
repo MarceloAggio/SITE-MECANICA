@@ -30,7 +30,7 @@ h6 {
 
 header {
   padding: 15px 0 5px 0;
-  background-color: rgb(236, 50, 55) !important;
+  background-color: transparent;
   color: white;
   line-height: 15px;
 }
@@ -136,9 +136,9 @@ footer {
 }
 
 .container-fluid {
-  background-color: rgb(189, 38, 43) !important;
+  background-color: transparent;
   z-index: 999 !important;
-  position: relative;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -319,3 +319,4 @@ body {
   transition: 0.4s;
   color: #760d26;
 }
+

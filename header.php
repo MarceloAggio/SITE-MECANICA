@@ -1,6 +1,7 @@
-<nav class="navbar bg-light fixed-top">
+<header>
+<nav class="navbar bg-light fixed-top max">
     <div class="container-fluid">
-        <img src="imagem/jemase-logot.png" alt="" width="100%">
+        <img src="imagem/jemase-logot.png" alt="" id="jemase-logo" width="100%">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -45,3 +46,4 @@
         </div>
     </div>
 </nav>
+</header>
